@@ -46,14 +46,3 @@ const scrollRevealOption = {
     delay: 200,
   });
   
-  // blogs container
-  ScrollReveal().reveal(".blogs__card", {
-    duration: 1000,
-    interval: 400,
-  });
-  
-  // journals container
-  ScrollReveal().reveal(".journals__card", {
-    ...scrollRevealOption,
-    interval: 400,
-  });
